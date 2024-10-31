@@ -1,0 +1,17 @@
+.wp-block-onedash-configform {
+}
+
+.wp-block-onedash-configform .onedash__logo {
+    margin-right: 5px;
+}
+
+.wp-block-onedash-configform__control {
+    width: 100%;
+    outline: 0;
+}
+
+.wp-block-onedash-configform__control__state_invalid input[type=url].components-text-control__input,
+.wp-block-onedash-configform__control__state_invalid input[type=url].components-text-control__input:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 1px #dc3545;
+}
